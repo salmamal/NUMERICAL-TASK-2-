@@ -1,4 +1,4 @@
-% Modified Euler Method
+ % Modified Euler Method
 function y = modified_euler(f, t_values, y0, h)
   N = length(t_values);
   y = zeros(1,N);
