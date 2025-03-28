@@ -1,4 +1,4 @@
-%% Heun's Method (RK2)
+ %% Heun's Method (RK2)
 function [x, y] = rk2_heun(f, x0, xn, y0, h)
     N = (xn - x0) / h;
     x = linspace(x0, xn, N+1);
