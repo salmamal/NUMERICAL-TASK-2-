@@ -1,4 +1,4 @@
-%% Two-Step Adams-Bashforth Method
+ %% Two-Step Adams-Bashforth Method
 function [x, y] = lmm_adams_bashforth(f, x0, xn, y0, h)
     N = (xn - x0) / h;
     x = linspace(x0, xn, N+1);
